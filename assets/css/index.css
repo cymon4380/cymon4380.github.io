@@ -1,0 +1,127 @@
+body {
+  background-color: #202225;
+  color: #f2f2f2;
+  font-size: 16px;
+  font-family: 'Rubik', sans-serif;
+}
+
+code, .monospace {
+  font-family: 'Roboto Mono', monospace;
+}
+
+--index {
+  width: 1vh;
+  height: 1vh;
+}
+
+.parallax-bg {
+  margin: 0;
+  padding: 0;
+  background-size: cover;
+  filter: brightness(.3);
+  z-index: -1;
+  min-height: 100vh;
+  background-position: center;
+  background-attachment: fixed;
+  background-position-y: calc(var(--scrollY) / -3);
+  box-shadow: 0 8px 25px rgba(0, 0, 0, .2);
+}
+
+.navbar-brand img {
+  width: 48px;
+  border-radius: 50%;
+  transition: box-shadow .4s;
+}
+
+.navbar-brand img:hover {
+  box-shadow: 0px 0px 15px rgba(255, 77, 77, .4);
+}
+
+.nav-item i {
+  font-size: 36px;
+}
+
+.nav-item {
+  margin: 0 5px;
+}
+
+.jumbotron.title {
+  color: #f2f2f2 !important;
+  position: absolute;
+  background-color: transparent;
+  top: 20vh;
+  width: 100%;
+  font-size: 20px;
+}
+
+.title img {
+  width: 150px;
+  border-radius: 50%;
+  margin-bottom: 10px;
+}
+
+.title h1 {
+  font-size: 48px;
+}
+
+.container.data {
+  margin-top: 80px;
+  background-color: #191919;
+  border-radius: 20px;
+  min-width: 200px;
+  border: 2px solid #f2f2f2;
+  padding: 20px;
+  box-shadow: 0px 8px 10px rgba(0, 0, 0, .2);
+}
+
+.data .row {
+  margin: 10px 0;
+  line-height: 35px;
+  border-top: 2px solid #f2f2f2;
+  padding: 16px 0;
+}
+
+.data .row i {
+  font-size: 44px;
+  margin-right: 20px;
+}
+
+.navbar {
+  background-color: rgba(0, 0, 0, .2);
+}
+
+* {
+  scrollbar-width: thin;
+  scrollbar-color: #ff4d4d #272727;
+}
+
+*::-webkit-scrollbar {
+  width: 8px;
+}
+
+*::-webkit-scrollbar-track {
+  background: #272727;
+}
+
+*::-webkit-scrollbar-thumb {
+  background-color: #ff4d4d;
+  border-radius: 10px;
+}
+
+#carousel-1 {
+  margin: 30px 20px;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, .2);
+}
+
+::selection {
+  background-color: #ff4d4d;
+  color: #f2f2f2;
+}
+
+footer {
+  padding: 40px;
+  background-color: #191919;
+  box-shadow: 0 -4px 4px rgba(0, 0, 0, .2);
+  margin-top: 80px;
+}
+
