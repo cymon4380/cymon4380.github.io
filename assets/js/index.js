@@ -7,7 +7,7 @@ function openSpecificLink(purpose) {
         case "tg": openUrl("https://t.me/cymon_moment_new"); break;
         case "yt": openUrl("https://youtube.com/c/CymonKSP"); break;
         case "gh": openUrl("https://github.com/cymon4380"); break;
-        case "da": openUrl("https://donationalerts.com/r/cymon4380"); break;
+        case "da": openUrl("https://www.donationalerts.com/r/cymontv2004"); break;
     };
 }
 
