@@ -25,7 +25,7 @@ $(document).ready(() => {
                 $("a").each(function () {
                     if(Math.random() > .6) {
                         $(this).fadeOut(500, function() {
-                            $(this).attr("href", "https://donationalerts.com/r/cymontv2004").fadeIn(800);
+                            $(this).attr("href", "https://donationalerts.com/r/cymontv2004").attr("onclick", "alert('да, я, негодяй такой, деняк захотел)))');").fadeIn(800);
                         });
                     }
                 });
