@@ -19,6 +19,6 @@ $(document).ready(() => {
     var pictures = ['bg1.png', 'bg2.png', 'bg3.png', 'bg4.png'];
 
     $('.parallax-bg').hide();
-    $('.parallax-bg').css('background-image', `url(${pictures[Math.floor(Math.random() * pictures.length)]})`);
+    $('.parallax-bg').css('background-image', `url(assets/img/${pictures[Math.floor(Math.random() * pictures.length)]})`);
     $('.parallax-bg').fadeIn(500);
 });
